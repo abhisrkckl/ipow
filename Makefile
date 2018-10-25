@@ -1,4 +1,4 @@
-.PHONY: all
+.PHONY: all clean
 
 all: test_ipow test_pow
 
@@ -13,3 +13,6 @@ test_pow: test_pow.o
 
 test_pow.o: test_pow.cpp 
 	g++ -c test_pow.cpp -o test_pow.o
+	
+clean:
+	rm *.o test_pow test_ipow
