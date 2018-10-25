@@ -3,7 +3,7 @@ constexpr static double ipow(const double &x, const unsigned int &n){
     
     double result{1}, temp{x};
     
-    for(int j=1; j<=n; j<<=1){
+    for(unsigned int j=1; j<=n; j<<=1){
        if(n&j){
            result *= temp;
        }
@@ -19,7 +19,7 @@ constexpr static double ipow(const double &x){
     
     double result{1}, temp{x};
     
-    for(int j=1; j<=n; j<<=1){
+    for(unsigned int j=1; j<=n; j<<=1){
        if(n&j){
            result *= temp;
        }
