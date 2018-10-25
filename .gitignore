@@ -1,2 +1,3 @@
 *.o
-test
+test_pow
+test_ipow
