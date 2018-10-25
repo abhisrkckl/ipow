@@ -1,5 +1,5 @@
 
-constexpr double ipow(const double &x, const unsigned int &n){
+constexpr static double ipow(const double &x, const unsigned int &n){
     
     double result{1}, temp{x};
     
